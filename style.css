@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar, .hero{
+    background-color: #1F2937;
+}
+
+.hlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style: none;
+}
+
+a, .hero2{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+button{
+    background-color:#3882f6; 
+}
+
