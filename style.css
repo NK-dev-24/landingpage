@@ -57,7 +57,6 @@ button{
     flex-flow: row wrap;
     max-width: 550px;
     padding: 16px;
-    
 }
 
 .hero{
@@ -133,4 +132,39 @@ button{
     text-align:end;
     font-weight:700;
     font-size: 18px;
+}
+
+.cta{
+    display: flex;
+    padding: 36px;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 6px;
+    padding: 10px 25px;
+    justify-content: space-evenly;
+    gap: 18px;
+    flex: auto
+}
+
+.ctahead{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.ctacontent{
+    margin-top: 0;
+}
+
+.button{
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 6px;
+    align-self: center;
+    box-sizing: border-box;
 }
